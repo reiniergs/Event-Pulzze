@@ -8967,12 +8967,13 @@ h1 {
   width: 45px;
   height: 80px;
   background-color: #019934;
+  opacity: 0.6;
 }
-/* line 36, src/main.scss */
+/* line 37, src/main.scss */
 .orbitControls .next {
   right: 0px;
 }
-/* line 38, src/main.scss */
+/* line 39, src/main.scss */
 .orbitControls .next:before {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -8987,11 +8988,11 @@ h1 {
   left: 35%;
   top: 29px;
 }
-/* line 48, src/main.scss */
+/* line 49, src/main.scss */
 .orbitControls .prev {
   left: 0px;
 }
-/* line 50, src/main.scss */
+/* line 51, src/main.scss */
 .orbitControls .prev:before {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;

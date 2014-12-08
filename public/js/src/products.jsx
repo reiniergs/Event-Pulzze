@@ -1,9 +1,12 @@
 var React = require('react');
+var TitlePage = require('./titlepage.js');
 
 var Products = React.createClass({
 	render : function () {
 		return (
-			<h2>Products content!</h2>
+			<div className="row">
+				<TitlePage title={this.props.title.slice(1,this.props.title.length)} />
+			</div>
 			);
 	}
 });

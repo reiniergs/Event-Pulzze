@@ -3,7 +3,9 @@ var React = require('react');
 var TitlePage = React.createClass({
 	render : function () {
 		return (
-			<h1>{this.props.title}</h1>
+			<div className="large-12 columns">
+				<h1>{this.props.title}</h1>
+			</div>
 			);
 	}
 });
