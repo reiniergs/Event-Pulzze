@@ -39,7 +39,7 @@ var App = React.createClass({
 	render : function () {
 	    return (
 	    	<div>
-		      	<TopBar name="Latinotrading Corp." />
+		      	<TopBar name="Latinotrading" />
 		      	<AppContent action={this.state.action} />	
 		    </div>  	
 	    );  	
@@ -51,7 +51,6 @@ $(document).ready(function () {
     
     var routerApp = new workSpace();
     Backbone.history.start();
-    
     React.render(
 		<App  router={routerApp}/>,
 	   	document.getElementById('app') 

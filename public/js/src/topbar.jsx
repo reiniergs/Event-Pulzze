@@ -3,12 +3,15 @@ var React = require('react');
 
 var TopBar = React.createClass({
 	render : function () {
+		var cssName = {
+				fontSize : '40px'
+			};
 		return (
-			<div className="contain-to-grid">
+			<div className="">
 			  <nav className="top-bar" data-topbar role="navigation">
 				    <ul className="title-area">
 				        <li className="name">
-				            <h1><a href="#">{this.props.name}</a></h1>
+				            <h1><a href="#" style={cssName}>{this.props.name}</a></h1>
 				        </li>
 				        <li className="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
 				    </ul>

@@ -14,12 +14,14 @@ var ImageOrbit = React.createClass({
     	left 			: '0px',
     	backgroundImage : 'url('+ this.props.imageSrc +')',
     	backgroundPosition : 'center',
-    	backgroundSize	: 'cover'
+    	backgroundSize	: 'cover',
+    	border : '1px solid #019934',
+    	borderRadius : '10px'
     }
     return (
-      <div>
+      <div className="small-12 columns">
         <ReactCSSTransitionGroup transitionName="orbit">
-          <div key={this.props.imageSrc} style={css}/>
+       		<div key={this.props.imageSrc} style={css}></div>
         </ReactCSSTransitionGroup>
       </div>
     );
@@ -37,7 +39,9 @@ var Orbit = React.createClass({
 	},
 	render : function () {
 		var css = {
-			position : 'relative'
+			position : 'relative',
+			height : '400px',
+			marginBottom : '20px'
 		};
 		var controlsCss = {
 			display : this.state.over ? 'block' : 'none'
@@ -47,8 +51,8 @@ var Orbit = React.createClass({
 			<div className="Orbit" style={css} onMouseEnter={this.mouseEnter} onMouseLeave={this.mouseLeave}> 
 				<ImageOrbit imageSrc={this.props.urls[this.state.index]} />
 				<div className="orbitControls" style={controlsCss}>
-		        	<div className="prev" onClick={this.prevImg} />
-		        	<div className="next" onClick={this.nextImg} />
+		        	<div className="prev" onClick={this.prevImg}></div>
+		        	<div className="next" onClick={this.nextImg}></div>
 		        </div>	
 	        </div>	
 			);
