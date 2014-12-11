@@ -6,6 +6,7 @@ var Backbone = require('backbone');
 
 var TopBar = require('./topbar.js');
 var AppContent = require('./appcontent.js');
+var AppFooter = require('./app-footer.js');
 
 
 var workSpace = Backbone.Router.extend({
@@ -40,7 +41,8 @@ var App = React.createClass({displayName: 'App',
 	    return (
 	    	React.createElement("div", null, 
 		      	React.createElement(TopBar, {name: "Latinotrading"}), 
-		      	React.createElement(AppContent, {action: this.state.action})	
+		      	React.createElement(AppContent, {action: this.state.action}), 
+		      	React.createElement(AppFooter, null)	
 		    )  	
 	    );  	
 	}
