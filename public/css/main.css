@@ -2506,10 +2506,10 @@ input[type="tel"]:focus,
 input[type="time"]:focus,
 input[type="url"]:focus,
 textarea:focus {
-  -webkit-box-shadow: 0 0 5px #999999;
-  -moz-box-shadow: 0 0 5px #999999;
-  box-shadow: 0 0 5px #999999;
-  border-color: #999999;
+  -webkit-box-shadow: 0 0 5px #019934;
+  -moz-box-shadow: 0 0 5px #019934;
+  box-shadow: 0 0 5px #019934;
+  border-color: #019934;
 }
 /* line 107, src/foundation/scss/foundation/components/_forms.scss */
 input[type="text"]:focus,
@@ -2527,7 +2527,7 @@ input[type="time"]:focus,
 input[type="url"]:focus,
 textarea:focus {
   background: #fafafa;
-  border-color: #999999;
+  border-color: #019934;
   outline: none;
 }
 /* line 114, src/foundation/scss/foundation/components/_forms.scss */
@@ -2594,7 +2594,7 @@ input.error:focus,
 .error textarea:focus,
 textarea.error:focus {
   background: #fafafa;
-  border-color: #999999;
+  border-color: #019934;
 }
 
 /* line 358, src/foundation/scss/foundation/components/_forms.scss */
@@ -8933,34 +8933,29 @@ a.th {
   content: "\f20c";
 }
 
-/* line 4, src/main.scss */
-h1 {
-  font-size: 40px;
-}
-
-/* line 8, src/main.scss */
+/* line 1, src/_orbit.scss */
 .orbit-enter {
   opacity: 0;
   transition: opacity .5s ease-in;
 }
 
-/* line 13, src/main.scss */
+/* line 6, src/_orbit.scss */
 .orbit-enter.orbit-enter-active {
   opacity: 1;
 }
 
-/* line 17, src/main.scss */
+/* line 10, src/_orbit.scss */
 .orbit-leave {
   opacity: 1;
   transition: opacity .5s ease-in;
 }
 
-/* line 22, src/main.scss */
+/* line 15, src/_orbit.scss */
 .orbit-leave.orbit-leave-active {
   opacity: 0;
 }
 
-/* line 28, src/main.scss */
+/* line 21, src/_orbit.scss */
 .orbitControls .next, .orbitControls .prev {
   position: absolute;
   top: 160px;
@@ -8969,11 +8964,11 @@ h1 {
   background-color: #019934;
   opacity: 0.6;
 }
-/* line 37, src/main.scss */
+/* line 30, src/_orbit.scss */
 .orbitControls .next {
   right: 0px;
 }
-/* line 39, src/main.scss */
+/* line 32, src/_orbit.scss */
 .orbitControls .next:before {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -8988,11 +8983,11 @@ h1 {
   left: 35%;
   top: 29px;
 }
-/* line 49, src/main.scss */
+/* line 42, src/_orbit.scss */
 .orbitControls .prev {
   left: 0px;
 }
-/* line 51, src/main.scss */
+/* line 44, src/_orbit.scss */
 .orbitControls .prev:before {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;

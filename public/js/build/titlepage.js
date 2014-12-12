@@ -2,7 +2,8 @@ var React = require('react');
 var variables = require('./app-variables.js')
 
 var cssContainer = {
-	borderBottom : '1px solid'
+	borderBottom : '1px solid',
+	marginBottom : '20px'
 }
 var cssText = {
 	color : variables.bgMainColor,

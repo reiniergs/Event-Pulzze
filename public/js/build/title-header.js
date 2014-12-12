@@ -4,7 +4,8 @@ var variables = require('./app-variables.js');
 var cssContainer = {
     fontSize : '25px',
 	borderBottom : '1px solid',
-	marginBottom: '20px'
+	marginBottom: '20px',
+	paddingBottom : '10px'
 };
 var cssDescrip = {
 	fontSize: '16px',
