@@ -9,16 +9,18 @@
     "jquery": "./public/js/vendor/jquery.js",
     "underscore": "./public/js/vendor/underscore.js",
     "backbone": "./public/js/vendor/backbone.js",
-    "react" : "./node_modules/react/dist/react-with-addons.js"
+    "react": "./node_modules/react/dist/react-with-addons.js"
   },
   "browserify-shim": {
     "jquery": "$",
-    "underscore":"_",
+    "underscore": "_",
     "backbone": "Backbone",
-    "react" : "React"
+    "react": "React"
   },
   "browserify": {
-    "transform": [ "browserify-shim" ]
+    "transform": [
+      "browserify-shim"
+    ]
   },
   "dependencies": {
     "backbone": "^1.1.2",
@@ -42,6 +44,7 @@
     "grunt-contrib-compass": "^1.0.1",
     "grunt-contrib-concat": "^0.5.0",
     "grunt-contrib-watch": "^0.6.1",
-    "grunt-react": "^0.10.0"
+    "grunt-react": "^0.10.0",
+    "react-map": "0.0.2"
   }
 }

@@ -13,7 +13,7 @@ module.exports = function(grunt) {
                 files: 'public/css/src/**/*.scss',
                 tasks: ['compass'],
                 options: {
-                  livereload: true,
+                  livereload: true
                 }
             }    
         },
@@ -41,7 +41,7 @@ module.exports = function(grunt) {
                 },
                 options : {
                     browserifyOptions : {
-                        debug : true
+                        debug : true,
                     }
                 }
             }
