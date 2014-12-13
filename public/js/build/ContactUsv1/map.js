@@ -63,7 +63,7 @@ var Map = React.createClass({displayName: 'Map',
   render : function() {
 
     var style = {
-      width: this.props.width,
+      width: '100%',
       height: this.props.height
     }
 
